@@ -11,7 +11,7 @@
         --body-size: 1.125rem;
         --body-line-height: 1.6;
     }
-    body {
+    body,p,li {
         font-family: 'Noto Sans TC' !important;
         line-height: var(--body-line-height);
         color:      black;
@@ -19,12 +19,7 @@
         letter-spacing: 0.0375rem;
         font-weight: 400;
     }
-    
-    /* p,li {
-        font-size: var(--body-size) !important;
-        letter-spacing: 0.0375rem;
-        font-weight: 300;
-    } */
+
 
   
     
