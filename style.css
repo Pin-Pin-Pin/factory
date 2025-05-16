@@ -1,0 +1,52 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400&display=swap');
+
+
+
+    :root {
+        /* Desktop (1200px and up) */
+        --font-base-size: 16px;
+        font-size: calc(var(--font-base-size) * 1);
+        --body-size: 1.125rem;
+        --body-line-height: 1.6;
+    }
+    body {
+        font-family: 'Noto Sans TC' !important;
+        line-height: var(--body-line-height);
+        color:      black;
+        font-size: var(--body-size) !important;
+        letter-spacing: 0.0375rem;
+        font-weight: 400;
+    }
+    
+    /* p,li {
+        font-size: var(--body-size) !important;
+        letter-spacing: 0.0375rem;
+        font-weight: 300;
+    } */
+
+  
+    
+    /* (769px to 1199px) */
+    @media (max-width: 1199px) {
+        :root {
+            --body-size: 1.125rem !important;
+        }
+    }
+    
+    /* Mobile (767px and down) */
+    @media (max-width: 768px) {
+        :root {
+            --body-size: 1.125rem !important;
+        }
+
+    }
+    
+    /* Small Mobile (425px and down) */
+    @media (max-width: 425px) {
+        :root {
+            --body-size: 1.125rem !important;
+            
+        }
+    }
